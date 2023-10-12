@@ -156,7 +156,10 @@ button:hover {
     margin: auto;
   }
   .facts__card{
-    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
   .product__facts {
     display: flex;
@@ -165,8 +168,9 @@ button:hover {
     width: 100% !important;
   }
   .card__item {
-    min-width: 40px !important;
-    min-height: 40px !important;
+    margin-top: 1vmax;
+    min-width: 80px !important;
+    min-height: 80px !important;
   }
   .card__title{
     font-size: 7px !important;
