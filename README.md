@@ -79,8 +79,14 @@ In this project, I created a single-page Pepsi website using React and bootstrap
 
 ## Screenshot
 
+- Desktop
 https://drive.google.com/file/d/1ORn9yyeYPKmLoVlKaVC54TUJkwrm1DZw/view?usp=sharing
+
+- Mobile
 https://drive.google.com/file/d/1ZTa58fE2YYuKyi_4x6dt_3bumV7FhBTk/view?usp=sharing
+
+- Lighthouse report
+https://drive.google.com/file/d/1SSYXiAxV9kCt89a1T-ponBczbW6ABQEE/view?usp=sharing
 
 ## My Process
 
