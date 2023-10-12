@@ -1,0 +1,74 @@
+
+.left__section {
+  width: 55%;
+  margin-left: 4vmax;
+
+}
+
+.product__name {
+  font-size: var(--heading-size);
+  font-weight: var(--boldest-font);
+}
+
+  .product__description {
+    width: 60%;
+  }
+
+
+.facts__card {
+  width: 85%;
+}
+
+.card__item {
+  min-width: 120px;
+  min-height: 120px;
+
+  background-color: var(--mid-blue-color);
+}
+
+
+.card__percentage {
+  font-size: var(--small-text-size);
+  background-color: var(--light-blue-color);
+  font-weight: var(--bold-font);
+
+}
+
+.facts__note {
+  font-size: var(--smallest-text-size);
+}
+.product__buy button {
+  font-size: var(--small-text-size);
+}
+
+.product__list {
+  width: 70%;
+}
+
+.list__item {
+  cursor: var(--my-cursor);
+  transition: transform 0.3s;
+}
+
+.list__item:hover {
+  transform: scale(1.05);
+}
+
+.list__item:hover p {
+  color: var(--white-main);
+}
+
+.list__item img {
+  max-width: 40px;
+  height: auto;
+}
+
+.list__item img:hover {
+  filter: drop-shadow(3px 3px 9px rgba(0, 0, 0, 0.3));
+}
+
+.list__item p {
+  font-size: var(--small-text-size);
+  color: rgba(105, 157, 221, 0.9);
+  transition: 0.3s;
+}

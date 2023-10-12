@@ -1,0 +1,26 @@
+
+.nav {
+  height: var(--nav-height);
+  padding: 1vmax 2vmax;
+}
+
+.nav__logo {
+  cursor: var(--my-cursor);
+}
+
+.nav-link {
+  font-size: var(--smallest-text-size);
+  font-weight: var(--bold-font);
+  padding: 1rem 0.5rem;
+  cursor: var(--my-cursor);
+}
+
+.menu__item:hover {
+  text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav__btn {
+  cursor: var(--my-cursor) !important;
+ 
+  font-size: var(--small-text-size);
+}
