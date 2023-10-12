@@ -1,8 +1,6 @@
 
 .left__section {
-  width: 55%;
-  margin-left: 4vmax;
-
+  width: 65%;
 }
 
 .product__name {
@@ -16,13 +14,12 @@
 
 
 .facts__card {
-  width: 85%;
+  width: 90%;
 }
 
 .card__item {
   min-width: 120px;
   min-height: 120px;
-
   background-color: var(--mid-blue-color);
 }
 

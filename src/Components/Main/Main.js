@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import LeftSection from '../Section/LeftSection';
 import RightSection from '../Section/RightSection';
 import "./Main.css"
-import LeftSiderbar from '../SiderBar/LeftSiderbar';
-import RightSiderbar from '../SiderBar/RightSiderbar';
 
 const products = [
   {
@@ -125,7 +123,6 @@ const products = [
 function Main() {
     const [currentProduct, setCurrentProduct] = useState(products[0]);
 
-
   
   
     const handleProductChange = (index) => {
@@ -133,15 +130,11 @@ function Main() {
     };
 
   return (
-      <div className="mx-auto w-100 main__sections text-white px-5 d-flex justify-content-between align-items-start   ">
+      <div className="mx-auto w-75 main__sections text-white d-flex align-items-start   ">
         {/* Left Section */}
-        <LeftSiderbar
-                products={products}
-                currentProduct={currentProduct}
-                setCurrentProduct={setCurrentProduct}/>
-
         <LeftSection
         products={products}
+        setCurrentProduct={setCurrentProduct}
         currentProduct={currentProduct}
         onProductChange={handleProductChange}
       />
@@ -149,12 +142,9 @@ function Main() {
         {/* Right Section */}
         <RightSection
         products={products}
+        setCurrentProduct={setCurrentProduct}
         currentProduct={currentProduct}
-        setCurrentProduct={setCurrentProduct}  />
-        <RightSiderbar
-                products={products}
-                currentProduct={currentProduct}
-                setCurrentProduct={setCurrentProduct}/>
+        onProductChange={handleProductChange}  />
       </div>
   );
 }
