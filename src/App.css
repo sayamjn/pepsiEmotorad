@@ -121,7 +121,7 @@ button:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 .nav{
   width: 100% !important;
 }
@@ -159,6 +159,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     flex-direction: column;
   }
   .product__facts {
@@ -235,10 +236,30 @@ button:hover {
     margin: auto !important;
   }
   .product__img {
-    margin-left: -15vmax !important;
+    margin-left: -19vmax !important;
     padding: 0% !important;
     width: 350px !important;
     height: 350px !important;
   }
 }
 
+
+
+@media screen and (max-width: 480px) {
+  /* Your mobile phone styles here */
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* Your small tablet and landscape mobile styles here */
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Your tablet and small desktop styles here */
+}
+
+
+@media screen and (min-width: 1025px) {
+  /* Your larger desktop styles here */
+}
