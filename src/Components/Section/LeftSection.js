@@ -26,11 +26,11 @@ function LeftSection({ products, currentProduct, setCurrentProduct, onProductCha
     <div className="product__content d-flex flex-column">
 
       <h1 className="product__name" id="product-name">{currentProduct.name}</h1>
-      <p className="product__description  font-weight-light"> Carbonated Water, High Fructose, Corn Syrup, Caramel Color, Sugar Phosphoric Acid, Caffeine, Citric Acid, Natural Flour</p>
+      <p className="product__description  font-weight-light">Carbonated Water, High Fructose, Corn Syrup, Caramel Color, Sugar Phosphoric Acid, Caffeine, Citric Acid, Natural Flour</p>
     </div>
 
     <div className="product__facts w-100 d-flex flex-column">
-      <div className="facts__title mb-2 text-uppercase">
+      <div className="facts__title  text-uppercase">
         <h5 className="">Nutrition facts</h5>
       </div>
 

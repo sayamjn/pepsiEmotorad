@@ -2,35 +2,26 @@
 .left__section {
   width: 65%;
 }
-
 .product__name {
   font-size: var(--heading-size);
   font-weight: var(--boldest-font);
 }
-
   .product__description {
     width: 60%;
   }
-
-
 .facts__card {
   width: 90%;
 }
-
 .card__item {
   min-width: 120px;
   min-height: 120px;
   background-color: var(--mid-blue-color);
 }
-
-
 .card__percentage {
   font-size: var(--small-text-size);
   background-color: var(--light-blue-color);
   font-weight: var(--bold-font);
-
 }
-
 .facts__note {
   font-size: var(--smallest-text-size);
 }

@@ -205,11 +205,7 @@ button:hover {
   .facts__card {
     flex-wrap: wrap !important;
   }
-  .product__list {
-    display: flex;
-    flex-wrap: wrap !important;
-    flex-direction: row;
-  }
+
   .scale__line{
     display: none !important;
   }
@@ -222,6 +218,9 @@ button:hover {
 
 }
 @media screen and (max-width: 480px) {
+  .left__section  {
+    width: 100% !important;
+  }
   .next{
     position: absolute;
     top: 20% ;
@@ -238,11 +237,10 @@ button:hover {
   .card__title{
     font-size: 7px !important;
   }
-  .product__list {
-    flex-wrap: wrap !important;
-  }
+
   .facts__card {
     flex-wrap: wrap !important;
+    width: 100%;
   }
     .scale__line{
       display: none !important;
@@ -257,11 +255,8 @@ button:hover {
       font-size: small !important;
     }
 
-    .product__quantity{
-      width:50px;
-      height: 130px;
-      top: 50%;
-      padding: 5px 5px;
+    .product__quantity {
+      opacity: 0;
     }
   }
 
@@ -283,9 +278,7 @@ button:hover {
     font-size: 7px !important;
   }
 
-  .product__list {
-    flex-wrap: wrap !important;
-  }
+
   .facts__card {
     flex-wrap: wrap !important;
   }
@@ -330,11 +323,10 @@ button:hover {
     top: 14%;
   }
 
-  .product__list {
-    flex-wrap: wrap !important;
-  }
+
   .facts__card {
     flex-wrap: wrap !important;
+    width: 100%;
   }
   .scale__line{
     display: none !important;
@@ -380,7 +372,7 @@ button:hover {
   }
   .next{
     position: absolute;
-    left: 50.5%;
+    left: 0%;
   }
   .product__quantity{
     position: absolute;
@@ -408,6 +400,7 @@ button:hover {
   }
 
   .facts__card {
+    width: 100% !important;
     display: flex;
     flex-wrap: wrap;
   }
@@ -445,6 +438,7 @@ button:hover {
     }
 
   .facts__card {
+    width: 100% !important;
     display: flex;
     flex-wrap: wrap;
   }
@@ -453,6 +447,31 @@ button:hover {
   }
   .scale__line {
     display: none !important;
+  }
+  
+}
+
+@media screen and (max-width: 1440px) {
+  
+
+  .prev{
+    position: absolute !important;
+    top: 20%;
+    left: 5%;
+
+  }
+
+
+  .facts__card {
+    width: 100% !important;
+  }
+  .nonee {
+    margin-right: 3vmax;
+    margin-top: 10vmax;
+  }
+  .next {
+    position: absolute;
+    right: 2% !important;
   }
   
 }
